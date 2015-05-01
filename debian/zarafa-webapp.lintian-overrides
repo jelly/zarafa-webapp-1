@@ -1,0 +1,3 @@
+# We have to use the tinymce package that's shipped from upstream, the
+# Debian version is to old.
+zarafa-webapp: embedded-javascript-library usr/share/zarafa-webapp/client/tinymce/plugins/compat3x/tiny_mce_popup.js please use tinymce2?
