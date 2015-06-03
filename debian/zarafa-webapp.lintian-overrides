@@ -1,3 +1,7 @@
 # We have to use the tinymce package that's shipped from upstream, the
-# Debian version is to old.
-zarafa-webapp: embedded-javascript-library usr/share/zarafa-webapp/client/tinymce/plugins/compat3x/tiny_mce_popup.js please use tinymce2?
+# Debian version 3.8.4 is to old.
+zarafa-webapp: font-in-non-font-package usr/share/zarafa-webapp/client/tinymce/skins/lightgray/fonts/tinymce-small.ttf
+zarafa-webapp: font-in-non-font-package usr/share/zarafa-webapp/client/tinymce/skins/lightgray/fonts/tinymce.ttf
+zarafa-webapp: embedded-javascript-library usr/share/zarafa-webapp/client/tinymce/plugins/compat3x/tiny_mce_popup.js please use tinymce
+# this empty directory is still a issue, has to be sorted out
+zarafa-webapp: package-contains-empty-directory usr/share/zarafa-webapp/plugins/

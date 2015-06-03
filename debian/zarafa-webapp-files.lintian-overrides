@@ -1,0 +1,6 @@
+# this is a link to a PNG file for Microsoft Silverlight
+zarafa-webapp-files: privacy-breach-generic usr/share/zarafa-webapp/plugins/files/js/external/uxmediapak.js (http://go2.microsoft.com/fwlink/?linkid=108181)
+# these scripts doesn't need to be executable
+zarafa-webapp-files: script-not-executable usr/share/zarafa-webapp/plugins/files/php/Files/sabredav/vendor/sabre/vobject/bin/bench.php
+zarafa-webapp-files: script-not-executable usr/share/zarafa-webapp/plugins/files/php/Files/sabredav/vendor/sabre/vobject/bin/generateicalendardata.php
+zarafa-webapp-files: script-not-executable usr/share/zarafa-webapp/plugins/files/php/Files/sabredav/vendor/sabre/vobject/bin/vobjectvalidate.php
