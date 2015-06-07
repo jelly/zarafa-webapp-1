@@ -33,7 +33,7 @@ Package: zarafa-webapp-clockwidget
 Architecture: all
 Depends: ${misc:Depends}, zarafa-webapp (>= ${binary:Version})
 Description: Zarafa WebApp clock plugin 
- Clock widget for zarafa-webapp
+ Displays a clock in the Webapp dashboard.
 
 Package: zarafa-webapp-contactfax
 Architecture: all
@@ -51,31 +51,40 @@ Package: zarafa-webapp-extbox
 Architecture: all
 Depends: ${misc:Depends}, zarafa-webapp (>= ${binary:Version})
 Description: Zarafa WebApp image preview plugin
- Image attachment preview plugin for zarafa-webapp
+ Makes it possible to preview mail image attachments,
+ this will open the image in a lightbox.
 
 Package: zarafa-webapp-feedback
 Architecture: all
 Depends: ${misc:Depends}, zarafa-webapp (>= ${binary:Version})
 Description: Zarafa WebApp Feedback plugin
- Feedback collector plugin for zarafa-webapp
+ Feedback collector plugin for zarafa-webapp. Adds a
+ 'got feedback' button to the main menubar so all users
+ can directly give feedback to Zarafa.
 
 Package: zarafa-webapp-files
 Architecture: all
 Depends: ${misc:Depends}, zarafa-webapp (>= ${binary:Version})
 Description: Zarafa WebApp files plugin
- Files plugin for zarafa-webapp
+ File manamgent integration plugin for the WebApp, allows a user
+ to browse, save and attach files from a file share backend.
+ Supported backends are FTP and WebDav (Owncloud supported)
 
 Package: zarafa-webapp-folderwidgets
 Architecture: all
 Depends: ${misc:Depends}, zarafa-webapp (>= ${binary:Version})
 Description: Zarafa WebApp folder widgets plugin
- Folder widgets plugin for zarafa-webapp
+ Folder widgets plugin for zarafa-webapp. This is a collection
+ of widgets which can show the contents of some of the default
+ folders for a user.
 
 Package: zarafa-webapp-gmaps
 Architecture: all
 Depends: ${misc:Depends}, zarafa-webapp (>= ${binary:Version})
 Description: Zarafa WebApp google maps plugin
- Google Maps plugin for zarafa-webapp
+ Google Maps plugin for zarafa-webapp, adds a new 'maps' tab
+ in the contact details which displays the location of the contact
+ by using Google Maps.
 
 Package: zarafa-webapp-oauthlib
 Architecture: all
@@ -93,13 +102,16 @@ Package: zarafa-webapp-pdfbox
 Architecture: all
 Depends: ${misc:Depends}, zarafa-webapp (>= ${binary:Version})
 Description: Zarafa WebApp PDF viewer plugin
- PDF attachment viewer plugin for zarafa-webapp
+ The PDF viewer plugin makes it possible to preview
+ PDF mail attachments using PDF.js.
 
 Package: zarafa-webapp-quickitems
 Architecture: all
 Depends: ${misc:Depends}, zarafa-webapp (>= ${binary:Version})
 Description: Zarafa WebApp quick items plugin
- Quick Items plugin for zarafa-webapp
+ Quick Items plugin for zarafa-webapp. Adds special widgets to
+ the WebApp which makes it easier to create new mails, appointments,
+ contacts, tasks and notes.
 
 Package: zarafa-webapp-salesforce
 Architecture: all
@@ -111,19 +123,24 @@ Package: zarafa-webapp-shellgame
 Architecture: all
 Depends: ${misc:Depends}, zarafa-webapp (>= ${binary:Version})
 Description: Zarafa WebApp shell game plugin
- Shell game plugin for zarafa-webapp
+ Shell game plugin for zarafa-webapp. A simple shell game widget
+ for the WebApp.
 
 Package: zarafa-webapp-spreed
 Architecture: all
 Depends: ${misc:Depends}, zarafa-webapp (>= ${binary:Version})
 Description: Zarafa WebApp Spreed plugin
- Spreed integration plugin for zarafa-webapp
+ Zarafa Spreed Integration, allows you to set-up a conference
+ call from within emails, contact groups or single
+ contact cards.
 
 Package: zarafa-webapp-statslogging
 Architecture: all
 Depends: ${misc:Depends}, zarafa-webapp (>= ${binary:Version})
 Description: Zarafa WebApp statistics plugin
- User interface statistics logging plugin for zarafa-webapp
+ User interface statistics logging plugin for zarafa-webapp.
+ Logs user interface usage to an unique file per user session
+ in the file specified in the plugin's configuration file.
 
 Package: zarafa-webapp-sugarcrm
 Architecture: all
@@ -135,35 +152,42 @@ Package: zarafa-webapp-titlecounter
 Architecture: all
 Depends: ${misc:Depends}, zarafa-webapp (>= ${binary:Version})
 Description: Zarafa WebApp Titlecounter plugin
- Titlecounter plugin for zarafa-webapp
+ zarafa-webapp titlecounter plugin which shows the amount of unread
+ inbox mail items in the browsers title window.
 
 Package: zarafa-webapp-webappmanual
 Architecture: all
 Depends: ${misc:Depends}, zarafa-webapp (>= ${binary:Version})
 Description: Zarafa WebApp Manual plugin
- Adds direct WebApp Manual usage
+ Adds a button in the top menu bar, which opens the user manual
+ of the Zarafa WebApp.
+
 
 Package: zarafa-webapp-webodf
 Architecture: all
 Depends: ${misc:Depends}, zarafa-webapp (>= ${binary:Version})
 Description: Zarafa WebApp WebODC plugin
- WebODF plugin for zarafa-webapp
+ WebODF plugin for zarafa-webapp, makes it possible to preview
+ ODF files by right-clicking on an ODF mail attachment.
 
 Package: zarafa-webapp-xmpp
 Architecture: all
 Depends: ${misc:Depends}, zarafa-webapp (>= ${binary:Version}),
   libjs-jac
 Description: Zarafa WebApp XMPP plugin
- XMPP plugin for zarafa-webapp
+ XMPP plugin for zarafa-webapp, implements a simple XMPP based chat
+ client in the WebApp in the form of a widget.
 
 Package: zarafa-webapp-zdeveloper
 Architecture: all
 Depends: ${misc:Depends}, zarafa-webapp (>= ${binary:Version})
 Description: Zarafa WebApp developer plugin
- Developer plugin for zarafa-webapp
+ Developer plugin for zarafa-webapp, exposes insertion points visually
+ in the zarafa-webapp. Plugin is useful for plugin developers.
 
 Package: zarafa-webapp-zperformance
 Architecture: all
 Depends: ${misc:Depends}, zarafa-webapp (>= ${binary:Version})
 Description: Zarafa WebApp performance monitoring plugin
- Performance monitoring plugin for zarafa-webapp
+ Performance monitoring plugin for zarafa-webapp. Development tool
+ to measure the loading performance of several WebApp stores.
